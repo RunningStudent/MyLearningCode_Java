@@ -1,0 +1,6 @@
+package LoginDemoImpl;
+
+public interface LoginImpl {
+	public boolean login(String userName,String passWord);
+	public void  regist(User) ;
+}

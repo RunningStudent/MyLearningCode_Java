@@ -1,0 +1,32 @@
+package TestDemo;
+
+import java.text.ParseException;
+import java.util.ArrayList;
+
+import CalenderDemo.CalenderDemo1;
+import CollectionDemo.CollectionDemo;
+import DateDemo.MyLiveTime;
+import RegexDemos.RegexDemo1;
+
+public class TestDemo {
+
+	public static void main(String[] args) throws ParseException {
+		// TODO Auto-generated method stub
+		//RegexDemo1.Demo();
+		//MyLiveTime.showMyLiveTime("19951126");
+		//CalenderDemo1.Demo1();
+		//CollectionDemo.Demo1();
+		ArrayList<Integer> list=new ArrayList<Integer>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		Integer[] ins=new Integer[5];
+		Integer[] ins2=list.toArray(ins);
+		for (Integer integer : ins2) {
+			System.out.println(integer);
+		}
+		
+		
+	}
+
+}

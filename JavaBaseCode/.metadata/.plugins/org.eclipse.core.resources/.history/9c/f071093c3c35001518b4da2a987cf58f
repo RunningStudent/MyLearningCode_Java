@@ -1,0 +1,7 @@
+package TestDemo;
+
+public final class T {
+	public T() {
+		// TODO Auto-generated constructor stub
+	}
+}

@@ -1,0 +1,22 @@
+package ObjectDemo;
+
+public class TestDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s=new Student();
+		//输出对象哈希值
+		System.out.println(s.hashCode());
+		//获得对象的Class对象
+		Class c=s.getClass();
+		//输出Class的包名+类名
+		System.out.println(c.getName());
+		
+		System.out.println(s.getClass().getName(););
+		
+	}
+
+}

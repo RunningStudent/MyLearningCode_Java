@@ -1,0 +1,20 @@
+package TestDemo;
+
+import java.text.ParseException;
+
+import CalenderDemo.CalenderDemo1;
+import CollectionDemo.CollectionDemo;
+import DateDemo.MyLiveTime;
+import RegexDemos.RegexDemo1;
+
+public class TestDemo {
+
+	public static void main(String[] args) throws ParseException {
+		// TODO Auto-generated method stub
+		//RegexDemo1.Demo();
+		//MyLiveTime.showMyLiveTime("19951126");
+		//CalenderDemo1.Demo1();
+		CollectionDemo.Demo1();
+	}
+
+}

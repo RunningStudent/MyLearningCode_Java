@@ -1,0 +1,8 @@
+package loginDemo.dao;
+
+
+public interface LoginImpl {
+	public Boolean login(String userName,String passWord);
+	
+	public void register(User user);
+}

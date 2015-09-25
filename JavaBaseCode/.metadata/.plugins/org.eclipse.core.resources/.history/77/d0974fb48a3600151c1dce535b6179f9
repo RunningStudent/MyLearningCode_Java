@@ -1,0 +1,5 @@
+package LoginDemoImpl;
+
+public interface LoginImpl {
+
+}

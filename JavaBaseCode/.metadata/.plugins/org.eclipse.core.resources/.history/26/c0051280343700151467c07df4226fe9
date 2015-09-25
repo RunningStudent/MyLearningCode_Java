@@ -1,0 +1,38 @@
+package SetDemo_Test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class MainClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Demo1();
+	}
+	
+	public static void Demo1(){
+		// 创建集合对象
+		Set<String> set = new HashSet<String>();
+
+		// 创建并添加元素
+		set.add("hello");
+		set.add("java");
+		set.add("world");
+		set.add("java");
+		set.add("world");
+
+		// 增强for
+		for (String s : set) {
+			System.out.println(s);
+		}
+		/*
+		 	hello
+			java
+			world
+		*/
+
+	}
+}
